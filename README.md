@@ -18,4 +18,4 @@ create your own manifests to include classes or use the main class
 
 ## apply
 
-puppet apply -e "include macos_toolkit"
+puppet apply --modulepath=. -e "include macos_toolkit"
